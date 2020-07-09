@@ -1,0 +1,561 @@
+body{
+    font-family: 'Montserrat' sans-serif ;   
+}
+header .menu_top{
+    height: 156px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_top .row{
+    width: 100%;
+    padding: 0px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-family: 'Montserrat' sans-serif ;
+    font-weight: 400px;
+    font-size: 35px;
+    color: #4d5b88;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    
+}
+header .right{
+    display: flex;
+    flex-direction: column;
+    margin: 85px 0px 0px 0px;
+}
+.right img{
+    margin:0px 0px  2px 0px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+header .menu_bottom{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    background-image: url(./paul-trienekens-cYW4ROUmzzQ-unsplash.png);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.menu_bottom h2{
+    font-size: 50px;
+    font-weight: 400px;
+    text-align: center;
+    color: #142b61;
+    padding: 100px 0px 0px 0px;
+}
+.menu_bottom span{
+    color: #696a6a;
+}
+.menu_bottom p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #000000;
+    width: 700px;
+    
+    text-align: center;
+}
+.menu_bottom .massage{
+    width: 380px;
+    height: 390px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px 50px 20px 28px;
+    margin-bottom: 100px;
+
+}
+.massage h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #35406d;
+    
+}
+.massage .form-control{
+    padding-top: 30px;
+    height: auto;
+    width: 300px;
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #c7c7c7;
+}
+.massage .form-control-1{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    height: auto;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+
+}
+.massage .active{
+    margin: 68px 0px 0px;
+}
+.massage button{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 240px;
+    height: 60px;
+    background-color: #011556;
+    border-radius: 100px;
+    margin: 30px 0px 0px 17px;
+    border: #011556;
+}
+header h6{
+    font-size: 50px;
+    font-weight: 400px;
+    color: #344478;
+    text-align: center;
+    margin: 70px 0px 180px 0px;
+}
+header .country{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.country img{
+    width: 200px;
+    height: 220px;
+    border-radius: 100px;
+}
+.place{
+    display: flex;
+    padding:  0px 150px 0px 150px;
+}
+.place-main .row{
+    padding: 0;
+}
+.country a{
+    font-size: 36px;
+    font-weight: 400px;
+    text-align: center;
+    color: #011556;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 400px;
+    color: #344478;
+    text-align: center;
+    margin: 70px 0px 30px 0px;
+}
+section p{
+   font-size: 16px;
+   font-weight: 400px;
+   color: #7d7d7d;
+   width: 750px;
+   text-align: center;
+   margin: 0px 100px 100px 100px ;
+}
+
+
+
+.images .photo img{
+    width: 100%;
+    height: 100%;
+}
+section .photo{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 20px;
+    
+   
+}
+section .row{
+    padding: 0;
+}
+
+.photo .dubaitext{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:white;
+    opacity: 0.7;
+    transition: 500ms;
+    bottom: 600px;
+    text-align: center;
+}
+
+.photo:hover  .dubaitext{
+    position: absolute;
+    bottom:0px;
+}
+
+.dubaitext h2{
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    color: #011556;
+    margin: 20px 0px 0px 0px;
+}
+ .photo .dubaitext p{
+    color: #011556;
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: center;
+    width: 210px;
+    margin: 30px 0px 0px 0px;
+}
+.images .p{
+    
+    margin: 0;
+    padding: 0;
+}
+.photo button{
+    width: 140px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: 400px;
+    text-align: center;
+    padding: 10px 0px 17px 0px;
+    color: #ffffff;
+    background-color: #011556;
+    margin: 70px 105px 30px 90px;
+    border: #011556;
+}
+section .costs{
+    display: flex;
+}
+.costs .cost1{
+    width: 100%;
+    height: 450px;
+    background: url(./marcin-kalinski-PCgM2CYm6HA-unsplash.png) no-repeat center;
+    padding-top: 370px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.costs .cost2{
+    width: 100%;
+    height: 450px;
+    background: url(./ryan-miglinczy-02n9_v-d1yY-unsplash.png) no-repeat center;
+    padding-top: 370px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.costs .cost3{
+    width: 100%;
+    height: 450px;
+    background: url(./toa-heftiba-JZO-dPkCe3E-unsplash.png) no-repeat center;
+    display: flex;
+    justify-content: center;
+    padding-top: 370px;
+
+}
+.costs .text{
+    height: 100px;
+    width: 265px;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.costs h2{
+    font-size: 28px;
+    font-weight: 400px;
+    color: #4c4c4c;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+}
+.costs a{
+    color: #4d5b88;
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: center;
+    text-decoration: none;
+}
+footer{
+padding: 0px 150px 0px 150px;
+margin-top: 140px;
+
+}
+footer h1{
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    color: #011556;
+    margin-bottom: 75px;
+   
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #7d7d7d;
+    text-align: center;
+      
+}
+
+.comments .comments1{
+    width: 100%;
+    text-align: center;
+    
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+footer .active {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+}
+.comments1 p{
+    text-align: center;
+    margin-top: 35px;
+}
+ .stars{
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+
+   
+}
+footer span{
+    font-size: 17px;
+    font-weight: 400px;
+
+}
+footer .comments2 p{
+    margin-top: 35px;
+    text-align: center;
+
+
+}
+.comments2{
+    text-align: center;
+}
+footer .comments2 .active{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.comments2 span{
+    font-size: 17px;
+    font-weight: 400px;
+   
+}
+
+footer button{
+    width: 240px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400px;
+    border-radius: 100px;
+    color: #ffffff;
+    background-color: #011556;
+    margin: 150px 0px 40px 0px;
+    text-align: center;
+}
+.social li{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #011556;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.icons{
+    display: flex;
+}
+.social .fa{
+    color: #d3d3d3;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer h6{
+font-size: 17px;
+font-weight: 400px;
+color: #6f6f6f;
+margin: 16px 0px 0px 0px;
+display: flex;justify-content: center;
+}
+
+
+
+@media(max-width:576px){
+    .menu_bottom h2{
+        font-size: 34px;
+        font-weight: 400px;
+        text-align: center;
+        color: #142b61;
+        padding: 30px 0px 0px 0px;
+    }
+    .menu_bottom span{
+        color: #696a6a;
+    }
+    .menu_bottom p{
+        font-size: 11px;
+        font-weight: 400px;
+        color: #000000;
+        width: 700px;
+        
+        text-align: center;
+    }
+    header h6{
+        font-size: 30px;
+        font-weight: 400px;
+        color: #344478;
+        text-align: center;
+        margin: 30px 0px 80px 0px;
+    }
+    section h1{
+        font-size: 30px;
+        font-weight: 400px;
+        color: #344478;
+        text-align: center;
+        margin: 40px 0px 10px 0px;
+    }
+    section p{
+       font-size: 11px;
+       font-weight: 400px;
+       color: #7d7d7d;
+       width: 750px;
+       text-align: center;
+       margin: 0px 50px 50px 50px ;
+    }
+    footer .container{
+        padding: 0;
+    }
+    .comments1 .col-12 .col-sm-12 .col-md-6 .col-lg-6{
+        padding: 0;
+    }
+    .comments2 .col-12 .col-sm-12 .col-md-6 .col-lg-6{
+        padding: 0;
+    }
+    footer button{
+        width: 160px;
+        height: 65px;
+        font-size: 12px;
+        font-weight: 400px;
+        border-radius: 100px;
+        color: #ffffff;
+        background-color: #011556;
+        margin: 50px 0px 30px 0px;
+        text-align: center;
+    }
+    footer{
+        padding: 0;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        
+        }
+        .social li{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background-color: #011556;
+            border-radius: 100px;
+            margin-left: 7px;
+        }
+        .icons{
+            display: flex;
+        }
+        .social .row{
+            padding: 0;
+        }
+        .social .col-6 .col-sm-6 .col-md-6 .col-lg-6{
+            padding: 0;
+        }
+        .social .fa{
+            color: #d3d3d3;
+            width: 15px;
+            height: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        
+        footer h6{
+        font-size: 12px;
+        font-weight: 400px;
+        color: #6f6f6f;
+        margin: 16px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        }
+        .menu_bottom .massage{
+            width: 320px;
+            height: 375px;
+            background-color: #ffffff;
+            text-align: center;
+            padding: 15px 30px 20px 28px;
+            margin-bottom: 70px;
+        
+        }
+        .massage h3{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400px;
+            color: #35406d;
+            
+        }
+        .massage .form-control{
+            padding-top: 30px;
+            height: auto;
+            width: 240px;
+            border: none;
+            margin-bottom: 5px;
+            border-bottom: 1px solid #c7c7c7;
+        }
+        .massage .form-control-1{
+            padding-top: 20px;
+            padding-bottom: 50px;
+            padding-left: 10px;
+            height: auto;
+            width: 240px;
+            border: none;
+            border-bottom: 1px solid #c7c7c7;
+        
+        }
+        .massage .active{
+            margin: 68px 0px 0px;
+        }
+        .massage button{
+            font-weight: 400px;
+            font-size: 16px;
+            color: #ffffff;
+            width: 240px;
+            height: 60px;
+            background-color: #011556;
+            border-radius: 100px;
+            margin: 20px 0px 0px 0px;
+            border: #011556;
+        }
+}
