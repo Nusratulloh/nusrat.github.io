@@ -136,10 +136,12 @@ footer{
     width: 100%;
     
     display: flex;
+    justify-content:space-around;
     justify-content: center;
+    text-align:center;
+    align-items:center;
 }
 footer .footer_box{
-    margin: 65px 180px 65px 420px;
     width: 400px;
     height: 150px;
 }
